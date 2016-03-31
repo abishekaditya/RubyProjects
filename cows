@@ -1,0 +1,4 @@
+#!/usr/bin/ruby -w
+cow = IO.popen("cowsay","w")
+cow.puts "ice cream"
+cow.close_write

@@ -1,0 +1,3 @@
+#!/usr/bin/ruby -w
+
+puts ["cat","b","catcher"].inject {|temp,word| temp.length > word.length ? temp : word}

@@ -1,0 +1,4 @@
+#!/usr/bin/ruby -w
+
+a = gets
+system("cowsay #{a}")
