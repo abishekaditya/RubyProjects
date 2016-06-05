@@ -5,7 +5,7 @@ class Song
     @name=n
     @artist=a
   end
-  def artist=(new_val)    #setter method sets values of artist
+  def artist=(new_val)
     @artist=new_val
   end
 end

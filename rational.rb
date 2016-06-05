@@ -1,6 +1,5 @@
 #!/usr/bin/ruby -w
 require 'benchmark'
-require 'profile'
 include Benchmark
 
 def to_r(number)
