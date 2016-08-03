@@ -3,7 +3,7 @@
 a=gets
 
 if a.strip.reverse==a.strip
-  puts "plaindrome"
+  puts "palindrome"
 else
   puts "#{a.chomp}:#{a.reverse.rstrip}"
 end
