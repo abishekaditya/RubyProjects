@@ -3,7 +3,7 @@
 require 'pg'
 require 'io/console'
 
-
+puts 'Enter password'
 conn = PG.connect(:dbname => 'vitdb', :user => 'postgres', :password => STDIN.noecho(&:gets).chomp)
 
 IO.foreach("/home/abishek/PostgresProjects/task1.sql") do |line|
