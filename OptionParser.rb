@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 require 'optparse'
 require 'optparse/time'
 require 'ostruct'

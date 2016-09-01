@@ -1,4 +1,3 @@
 #!/usr/bin/env ruby
-
 a = gets
-system("cowsay #{a}")
+puts a.upcase

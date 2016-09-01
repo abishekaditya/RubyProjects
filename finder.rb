@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 class SongList
 	attr_reader :songs
 	def initialize

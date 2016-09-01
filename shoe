@@ -1,0 +1,6 @@
+#!/home/abishek/.shoes/walkabout/shoes
+Shoes.app do
+  flow do
+    para "image"
+  end
+end

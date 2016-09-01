@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 
 def n_times(value)
   return lambda {|n| n * value}

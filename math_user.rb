@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 
 require_relative 'math'
 #include Maths   ## use this when the methods are instance methods and not class methods

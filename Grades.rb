@@ -1,8 +1,13 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
+puts 'enter marks'
+marks = gets.chomp.to_f
 
-marks = gets
+puts 'enter total'
+total = gets.chomp.to_f
 
-case marks.to_i
+perc = (100*marks)/total
+puts "Percentage is #{perc}"
+case perc.to_i
 
 when 91..100
   then puts "S"

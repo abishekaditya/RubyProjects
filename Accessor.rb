@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w 
+#!/usr/bin/env ruby 
 class Song
   attr_reader :name, :artist #for using variables as methods
   def initialize(n,a)

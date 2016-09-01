@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 def insertion_sort a
   (a.length).times do |i|
           val = a.delete_at(i)

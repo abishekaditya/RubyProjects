@@ -1,4 +1,4 @@
-/usr/bin/ruby#!/usr/bin/ruby -w
+/usr/bin/ruby#!/usr/bin/env ruby
 class Writer
   attr_reader :name, :book
   attr_writer :name

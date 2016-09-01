@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 
 require 'test/unit'
 class TestsWhichFail < Test::Unit::TestCase

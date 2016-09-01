@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 class Example
 	attr_accessor :myname
 	def initialize(name)

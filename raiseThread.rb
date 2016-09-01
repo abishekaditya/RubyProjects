@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 Thread.abort_on_exception = true
 
 threads = []

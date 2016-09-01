@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'pry'
+a = 50
+binding.pry
+if a > 20
+  puts a - 50
+end
+

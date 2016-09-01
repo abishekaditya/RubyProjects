@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 
 def fibonacci(terms)
   a, b = 0, 1

@@ -1,2 +1,2 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 puts ARGV
