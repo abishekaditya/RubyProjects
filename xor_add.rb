@@ -9,4 +9,4 @@ def add(x,y)
   yield x
 end
 
-add(ARGV[0].to_i,ARGV[1].to_i) { |i| puts i}
+add(*(ARGV.map(&:to_i))) { |i| puts i}
