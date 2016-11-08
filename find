@@ -1,3 +1,10 @@
 #!/usr/bin/env ruby
 
 puts ["cat","b","catcher"].inject {|temp,word| temp.length > word.length ? temp : word}
+
+  def longest ar
+    puts ar.inject {|t,w| t.length > w.length ? t: w}
+  end
+
+  longest ARGV[0].split(',')
+

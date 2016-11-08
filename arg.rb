@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV
+puts "#{ARGV.map(&:to_i)}"
+puts ARGV.class
