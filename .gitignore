@@ -1,4 +1,5 @@
 *.txt
+*.ipynb_checkpoints/
 *.gem
 *.rbc
 /.config
@@ -11,6 +12,7 @@
 /test/version_tmp/
 /tmp/
 /Jupyter/
+/ruby-definer/
 ## Specific to RubyMotion:
 .dat*
 .repl_history

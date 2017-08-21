@@ -1,4 +1,4 @@
-#!/unlessyusr/bin/ruby -w
+#!/usr/bin/ruby -w
 pipe = IO.popen("-","w+")
 if pipe
   pipe.puts "Get a job!"

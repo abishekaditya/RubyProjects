@@ -1,14 +1,15 @@
-#!/usr/bin/env ruby -w
+#!/usr/bin/env ruby
 
 require 'profile'
-
-def isprime? x
-    !/^.?$|^(..+?)\1+$/.match?('1'*x)
+class Integer
+  def isprime?
+    !('1'*self).match?(/^.?$|^(..+?)\1+$/)
+  end
 end
 
 def my_method
   1000.times do
-    isprime? 500000
+    500000.isprime? 
   end
 end
 
