@@ -10,6 +10,10 @@ class Stack
     @elements.push val
     self
   end
+  
+  def head
+    @elements.first
+  end
 
   def pop
     @elements.pop
