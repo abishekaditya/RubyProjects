@@ -1,12 +1,12 @@
 #!/usr/bin/env ruby 
 class Song
   attr_reader :name, :artist #for using variables as methods
-  
+
   def initialize(n,a)
     @name=n
     @artist=a
   end
-  
+
   def artist=(new_val)
     @artist=new_val
   end

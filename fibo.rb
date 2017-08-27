@@ -6,6 +6,7 @@ def fibo(num)
   while a <= num
     yield a
     a, b = b, a+b 
+    x = 10
   end
 end
 
